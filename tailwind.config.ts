@@ -113,6 +113,7 @@ const config: Config = {
       boxShadow: {
         'glass-effect':
           '0px 8px 12px 0px rgba(255, 255, 255, 0.08) inset, 0px 24px 24px -16px rgba(0, 0, 0, 0.12), 16px 24px 64px -24px rgba(255, 255, 255, 0.08) inset',
+        medium: '0px 10px 15px -3px rgba(0, 0, 0, 0.05), 0px 4px 6px -4px rgba(0, 0, 0, 0.05)',
       },
     },
   },

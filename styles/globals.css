@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply focus:outline-none focus:ring-4 focus:ring-heisenberg-blue-500/[.24] focus:border-heisenberg-blue-500; 
+    }
+}

@@ -1,7 +1,12 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import login01 from '@/public/images/login-01.jpg';
 import { LoginForm } from './forms/login-form';
+
+export const metadata: Metadata = {
+  title: 'Login 01',
+};
 
 const Login01Page = () => {
   return (

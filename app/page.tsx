@@ -41,7 +41,7 @@ const HomePage = () => {
           src={previewImage}
           alt='Artificium Project'
           priority
-          className='rounded-[16px] border border-noble-black-600 shadow-medium'
+          className='rounded-[16px] border border-noble-black-600 shadow-medium bg-noble-black-800'
         />
 
         <div className='col-span-2 pt-10'>

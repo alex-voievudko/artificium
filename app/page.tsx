@@ -8,18 +8,18 @@ const cards = [
     image: '/screenshots/login-01.jpg',
     path: '/login-01',
   },
-  // {
-  //   title: 'Login Page 02',
-  //   image: '/screenshots/login-02.jpg',
-  //   path: '/login-02',
-  // },
+  {
+    title: 'Login Page 02',
+    image: '/screenshots/login-02.jpg',
+    path: '/login-02',
+  },
 ];
 
 const HomePage = () => {
   return (
     <main>
-      <div className='max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 2xl:px-0 py-16 grid grid-cols-2 gap-10'>
-        <div className=''>
+      <div className='max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 2xl:px-0 py-16 lg:grid lg:grid-cols-2 lg:gap-10'>
+        <div>
           <h1 className='font-bold text-4xl sm:text-5xl md:text-6xl mb-6'>
             Welcome to{' '}
             <span className='bg-day-blue-blue-green-500 bg-clip-text text-transparent'>
@@ -48,7 +48,7 @@ const HomePage = () => {
           <h2 className='font-bold text-2xl sm:text-3xl md:text-4xl mb-6 text-center'>
             Pages Preview
           </h2>
-          <div className='grid grid-cols-4 gap-4'>
+          <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
             {cards.map((card) => (
               <PreviewCard
                 key={card.title}
